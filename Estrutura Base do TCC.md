@@ -287,51 +287,44 @@ Features possíveis:
 
 5.8 - Stack Tecnológica Recomendada
 
-### Mobile
+* Mobile
+  * Android: Kotlin + Android SDK
+  * iOS: Swift + CallKit
+  * Inteligência Artificial
 
-* Android: Kotlin + Android SDK
-* iOS: Swift + CallKit
-* Inteligência Artificial
+* Python
+  * TensorFlow / PyTorch
+  * Scikit-Learn
+  * XGBoost
 
-### Python
+* Backend
+  * FastAPI (Python)
+  * Banco PostgreSQL
+  * Redis (cache)
+  * Docker
 
-* TensorFlow / PyTorch
-* Scikit-Learn
-* XGBoost
-
-### Backend
-
-* FastAPI (Python)
-* Banco PostgreSQL
-* Redis (cache)
-* Docker
-
-### Segurança
-
-* Criptografia AES-256
-* TLS 1.3
-* Hash SHA-256
-* LGPD compliance
+* Segurança
+  * Criptografia AES-256
+  * TLS 1.3
+  * Hash SHA-256
+  * LGPD compliance
 
 5.9 - Implementação (Fases)
 
-### Fase 1 – Prova de Conceito
+* Fase 1 – Prova de Conceito
+  * Dataset público de números fraudulentos
+  * Simulação de chamadas
+  * Treinamento offline
 
-* Dataset público de números fraudulentos
-* Simulação de chamadas
-* Treinamento offline
+* Fase 2 – Protótipo Funcional
+  * App Android
+  * Classificação via API
+  * Score de risco
 
-### Fase 2 – Protótipo Funcional
-
-* App Android
-* Classificação via API
-* Score de risco
-
-### Fase 3 – Escalabilidade
-
-* Cloud (AWS / Azure / GCP)
-* Microserviços
-* Pipeline MLOps
+* Fase 3 – Escalabilidade
+  * Cloud (AWS / Azure / GCP)
+  * Microserviços
+  * Pipeline MLOps
 
 ## 6 VIABILIDADE TÉCNICA E ECONÔMICA
 
