@@ -4,7 +4,7 @@ Trabalho de Conclusão de Curso em Engenharia de Computação - TCC540 - Turma 0
 
 ## Sumario
 
-* [Sumário](## Sumario)
+* [Sumário](#sumario)
   * [1. INTRODUÇÃO](#1-introdução)
   * [2 - FUNDAMENTAÇÃO TEÓRICA](#2---fundamentação-teórica)
   * [3 - ANÁLISE DO PROBLEMA](#3---análise-do-problema)
