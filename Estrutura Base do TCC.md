@@ -1,6 +1,7 @@
-# Sistema Inteligente Antifraude para Mitigação de Golpes Telefônicos Relacionados ao PIX em Smartphones
+# Sekhmet – Sistema Anti Fraude Telefônica
 
-Trabalho de Conclusão de Curso em Engenharia de Computação - TCC540 - Turma 016 - Tcc
+* Sistema Inteligente Antifraude para Mitigação de Golpes Telefônicos Relacionados ao PIX em Smartphones
+* Trabalho de Conclusão de Curso em Engenharia de Computação - TCC540 - Turma 016 - Tcc
 
 ## Sumario
 
@@ -28,7 +29,7 @@ Trabalho de Conclusão de Curso em Engenharia de Computação - TCC540 - Turma 0
 
 ## 1. INTRODUÇÃO
 
-1.1 Contextualização
+1.1 - Contextualização
 
 O Brasil é um dos países com maior adoção do sistema de pagamentos instantâneos Banco Central do Brasil — o Pix — que revolucionou o sistema financeiro.
 
@@ -42,13 +43,15 @@ Entretanto, o crescimento do PIX trouxe aumento significativo de:
 
 Segundo relatórios da FEBRABAN, a maior parte das fraudes ocorre por engenharia social, não por falhas técnicas do sistema PIX.
 
-1.2 Problema de Pesquisa
+1.2 - Problema de Pesquisa
 
 Como a Inteligência Artificial aplicada à Segurança da Informação pode reduzir fraudes telefônicas relacionadas ao uso do PIX em smartphones no Brasil?
 
-1.3 Hipótese
+1.3 - Hipótese
 
-1.4 Objetivo Geral
+(DESCREVER)
+
+1.4 - Objetivo Geral
 
 Desenvolver um modelo conceitual de um Sistema Inteligente Antifraude para Smartphones, capaz de:
 
@@ -57,13 +60,13 @@ Desenvolver um modelo conceitual de um Sistema Inteligente Antifraude para Smart
 * Classificar risco em tempo real
 * Alertar o usuário antes que a engenharia social evolua
 
-1.5 Objetivos Específicos
-1.6 Metodologia
-1.7 Estrutura do Trabalho
+1.5 - Objetivos Específicos
+1.6 - Metodologia
+1.7 - Estrutura do Trabalho
 
 ## 2 - FUNDAMENTAÇÃO TEÓRICA
 
-2.1 Segurança da Informação
+2.1 - Segurança da Informação
 
 A Segurança da Informação baseia-se no tripé:
 
@@ -76,7 +79,7 @@ No contexto financeiro digital, adicionam-se:
 * Autenticidade
 * Não repúdio
 
-2.2 Engenharia Social
+2.2 - Engenharia Social
 
 Segundo Mitnick, engenharia social explora vulnerabilidades humanas, não tecnológicas.
 
@@ -89,10 +92,10 @@ Principais vetores:
 
 A falha ocorre antes da transação — no convencimento.
 
-2.3 Sistema PIX e Vulnerabilidades
+2.3 - Sistema PIX e Vulnerabilidades
 A massificação do Pix, desenvolvido pelo Banco Central do Brasil, ampliou a superfície de ataque baseada em engenharia social.
 
-2.3 Machine Learning Aplicado à Segurança
+2.4 - Machine Learning Aplicado à Segurança
 
 Machine Learning permite:
 
@@ -107,7 +110,7 @@ Técnicas aplicáveis:
 * Redes Neurais MLP
 * Detecção de Anomalias
 
-2.4 Sistemas Antifraude Modernos
+2.5 - Sistemas Antifraude Modernos
 
 Empresas como:
 
@@ -116,11 +119,11 @@ Empresas como:
 
 Utilizam modelos preditivos para transações, mas não atuam preventivamente em chamadas telefônicas.
 
-2.5 Sistemas Antifraude
+2.6 - Sistemas Antifraude
 
-2.6 Classificação e Modelos Preditivos
+2.7 - Classificação e Modelos Preditivos
 
-2.6.1 Classificação (Scouring)
+2.7.1 - Classificação (Scouring)
 
 Vamos propor um modelo formal:
 
@@ -148,14 +151,14 @@ Score Final =
 
 $$Score=0.4(RandomForest)+0.3(XGBoost)+0.3(MLP)$$
 
-2.7 Aspectos Legais – LGPD
+2.7 - Aspectos Legais – LGPD
 
 ## 3 - ANÁLISE DO PROBLEMA
 
-3.1 Panorama das Fraudes no Brasil
-3.2 Fraudes Relacionadas ao PIX
-3.3 Impactos Econômicos
-3.4 Limitações dos Sistemas Atuais
+3.1 - Panorama das Fraudes no Brasil
+3.2 - Fraudes Relacionadas ao PIX
+3.3 - Impactos Econômicos
+3.4 - Limitações dos Sistemas Atuais
 
 ## 4 - PROPOSTA DE SOLUÇÃO
 
@@ -163,7 +166,7 @@ $$Score=0.4(RandomForest)+0.3(XGBoost)+0.3(MLP)$$
 
 ## 5 - DETALHAMENTO TÉCNICO
 
-5.1 Visão Geral do Sistema
+5.1 - Visão Geral do Sistema
 
 * Recebimento da ligação
 * Sistema analisa número, metadata e padrões
@@ -173,7 +176,7 @@ $$Score=0.4(RandomForest)+0.3(XGBoost)+0.3(MLP)$$
   * Suspeito
   * Alto Risco (Possível golpe)
 
-5.2 Tecnologias de IA
+5.2 - Tecnologias de IA
 
 * Machine Learning
 * Análise comportamental
@@ -181,29 +184,30 @@ $$Score=0.4(RandomForest)+0.3(XGBoost)+0.3(MLP)$$
 * Classificação de risco
 * Banco de dados de números suspeitos
 
-5.3 Arquitetura Conceitual - Arquitetura em Camadas
+5.3 - Arquitetura Conceitual - Arquitetura em Camadas
 
-5.3.1 Camadas do Sistema:
+5.3.1 - Camadas do Sistema:
 
 * Camada Cliente (Mobile)
 * Aplicativo Android / iOS
 * Permissões de acesso a chamadas
 * Interface de alerta
 
-5.3.2 Camada de Inteligência:
+5.3.2 - Camada de Inteligência:
 
 * Modelo de Machine Learning
 * Classificador supervisionado
 * Análise de padrões temporais
 
-5.3.3 Camada de Dados
+5.3.3 - Camada de Dados
 
 * Base de números denunciados
 * Base colaborativa
 * Integração com APIs públicas
 
-5.3.4 Visão Conceitual
+5.3.4 - Visão Conceitual
 
+```code
 [ Smartphone ]
        ↓
 [ Camada de Interceptação ]
@@ -213,6 +217,7 @@ $$Score=0.4(RandomForest)+0.3(XGBoost)+0.3(MLP)$$
 [ API Backend ]
        ↓
 [ Banco de Dados + Inteligência Colaborativa ]
+```
 
 Camada 1 – Dispositivo (Mobile)
 
@@ -242,9 +247,9 @@ Camada 3 – Backend
 
 Camada 3 – Backend
 
-5.4 Modelo de Inteligência Artificial
+5.4 - Modelo de Inteligência Artificial
 
-5.4.1 Modelo de Machine Learning
+5.4.1 - Modelo de Machine Learning
 
 Tipo de problema:
 
@@ -260,7 +265,7 @@ Features possíveis:
 * Padrão de repetição
 * Histórico de denúncias
 
-5.4.1 Técnicas de IA Aplicáveis
+5.4.1 - Técnicas de IA Aplicáveis
 
 * Random Forest
 * Gradient Boosting
@@ -268,7 +273,7 @@ Features possíveis:
 * Análise de grafos (rede de números interconectados)
 * NLP (caso haja análise de fala futura)
 
-5.4.2 Possível Evolução (Nível Avançado)
+5.4.2 - Possível Evolução (Nível Avançado)
 
 * Análise de voz em tempo real
 * Detecção de scripts de golpe
@@ -276,11 +281,11 @@ Features possíveis:
 * Aprendizado federado (Federated Learning)
 * Sistema colaborativo entre usuários
 
-5.5 Modelo Matemático de Scoring
-5.6 Estratégia de Implementação
-5.7 Segurança e Conformidade
+5.5 - Modelo Matemático de Scoring
+5.6 - Estratégia de Implementação
+5.7 - Segurança e Conformidade
 
-5.8 Stack Tecnológica Recomendada
+5.8 - Stack Tecnológica Recomendada
 
 ### Mobile
 
@@ -330,12 +335,13 @@ Features possíveis:
 
 ## 6 VIABILIDADE TÉCNICA E ECONÔMICA
 
-6.1 Infraestrutura Necessária
-6.2 Custos Estimados
+6.1 - Infraestrutura Necessária
 
-6.3 Modelo de Negócio
+6.2 - Custos Estimados
 
-6.3.1 Modelo: B2B2C
+6.3 - Modelo de Negócio
+
+6.3.1 - Modelo: B2B2C
 
 * Venda para bancos
 * Venda para operadoras
@@ -343,13 +349,13 @@ Features possíveis:
 * API antifraude para fintechs
 * Diferencial Estratégico
 
-6.3.2 Integração futura com:
+6.3.2 - Integração futura com:
 
 * Banco Central do Brasil
 * Serasa Experian
 * ClearSale
 
-6.4 Simulação de ROI
+6.4 - Simulação de ROI
 
 Premissas:
 
