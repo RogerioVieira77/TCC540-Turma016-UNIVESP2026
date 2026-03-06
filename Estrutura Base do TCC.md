@@ -6,21 +6,21 @@
 ## Sumario
 
 * [Sumário](#sumario)
-  * [1. INTRODUÇÃO](#1-introdução)
+  * [1 - INTRODUÇÃO](#1-introdução)
   * [2 - FUNDAMENTAÇÃO TEÓRICA](#2---fundamentação-teórica)
   * [3 - ANÁLISE DO PROBLEMA](#3---análise-do-problema)
   * [4 - PROPOSTA DE SOLUÇÃO](#4---proposta-de-solução)
   * [5 - DETALHAMENTO TÉCNICO](#5---detalhamento-técnico)
-  * [6 VIABILIDADE TÉCNICA E ECONÔMICA](#6-viabilidade-técnica-e-econômica)
-  * [7 RESULTADOS ESPERADOS](#7-resultados-esperados)
-  * [8 CONCLUSÃO](#8-conclusão)
+  * [6 - VIABILIDADE TÉCNICA E ECONÔMICA](#6-viabilidade-técnica-e-econômica)
+  * [7 - RESULTADOS ESPERADOS](#7-resultados-esperados)
+  * [8 - CONCLUSÃO](#8-conclusão)
   * [DICAS GERAIS](#dicas-gerais)
     * [PADRÃO ABNT](#padrão-abnt)
     * [ELEMENTOS PRÉ-TEXTUAIS](#elementos-pré-textuais)
     * [EXTRAS - IDEIAS ADICIONAIS](#extras---ideias-adicionais)
     * [MODELO DE APRESENTAÇÃO ESTILO BANCA](#modelo-de-apresentação-estilo-banca)
 
-## 1. INTRODUÇÃO
+## 1 - INTRODUÇÃO
 
 1.1 - Contextualização
 
@@ -319,7 +319,7 @@ Features possíveis:
   * Microserviços
   * Pipeline MLOps
 
-## 6 VIABILIDADE TÉCNICA E ECONÔMICA
+## 6 - VIABILIDADE TÉCNICA E ECONÔMICA
 
 6.1 - Infraestrutura Necessária
 
@@ -366,9 +366,9 @@ $$ROI=\frac{17.5−4}{4} =3.37$$
 
 Retorno de 337% ao ano.
 
-## 7 RESULTADOS ESPERADOS
+## 7 - RESULTADOS ESPERADOS
 
-## 8 CONCLUSÃO
+## 8 - CONCLUSÃO
 
 ## DICAS GERAIS
 
